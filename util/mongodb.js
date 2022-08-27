@@ -32,7 +32,7 @@ export async function connectToDatabase() {
       useUnifiedTopology: true
     };
 
-    const mongoURL = process.env.LOCAL_MONGODB;
+    const mongoURL ='mongodb+srv://testedata:sd3LRw98gnxxYQbX@cluster0.mtfkdme.mongodb.net/trelodb';
 
     cached.promise = MongoClient.connect(mongoURL, opts).then((client) => {
       return {
