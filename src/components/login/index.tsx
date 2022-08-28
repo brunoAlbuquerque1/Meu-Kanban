@@ -40,12 +40,9 @@ const Login = () => {
       password: values.password
     };
 
-
-
-    console.log(url)
+    const url = `${host}/api/login`;
 
     const response = await fetch(url, {
-
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
@@ -59,7 +56,6 @@ const Login = () => {
     });
 
     const result = await response.json();
-
     setIsFetching(false);
 
     const { email: inviteEmail, token, boardId } = router.query;
