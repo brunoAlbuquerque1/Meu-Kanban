@@ -57,7 +57,9 @@ const Login = () => {
 
     const result = await response.json();
     setIsFetching(false);
+    console.log({url},'00000000urlurlurlurl00resut')
 
+    console.log({result},'0000000000resut')
     const { email: inviteEmail, token, boardId } = router.query;
     const isInvitedUser = inviteEmail && token && boardId;
 
