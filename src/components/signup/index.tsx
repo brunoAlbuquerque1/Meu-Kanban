@@ -95,6 +95,7 @@ const SignUp = (): JSX.Element => {
     });
 
     const result = await response.json();
+    console.log({result},'.......')
     setIsCreatingStatus(false);
 
     if (response.status === 404) {
