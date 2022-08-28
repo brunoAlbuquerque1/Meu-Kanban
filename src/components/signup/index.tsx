@@ -189,7 +189,6 @@ const SignUp = (): JSX.Element => {
             fontSize={['10px', '10px', '15px', '15px']}
             fontWeight="semibold"
             lineHeight="normal">
-            <h1>Sign up for your account</h1>
           </Box>
           <Box my={4} textAlign="left">
             <FormControl isRequired>
