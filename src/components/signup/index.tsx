@@ -211,7 +211,7 @@ const SignUp = (): JSX.Element => {
                 type="email"
                 name="email"
                 value={values.email}
-                placeholder="Enter Email"
+                placeholder="dsds Email"
                 onChange={handleChange}
                 autoComplete="off"
               />
