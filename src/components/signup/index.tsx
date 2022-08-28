@@ -130,7 +130,7 @@ const SignUp = (): JSX.Element => {
       <Alert status="error">
         <AlertIcon />
         <AlertTitle mr={2}>Error</AlertTitle>
-        <AlertDescription>Email already in use</AlertDescription>
+        <AlertDescription>Email   use</AlertDescription>
         <CloseButton
           position="absolute"
           right="8px"
@@ -175,23 +175,7 @@ const SignUp = (): JSX.Element => {
         alignItems="center"
         flexDirection={['column', 'column', 'row', 'row']}
         justifyContent="center">
-        <Image
-          position="absolute"
-          bottom="5%"
-          left="5%"
-          src="/signup/sign-up-left.svg"
-          alt=" team work illustration"
-          width={[0, '25%']}
-        />
-        <Image
-          position="absolute"
-          bottom="5%"
-          right="5%"
-          src="/signup/sign-up-right.svg"
-          alt="work together illustration"
-          width={[0, '25%']}
-          borderRadius="3px"
-        />
+     
         <Box
           p="25px 40px"
           width={['80%', '60%', '45%', '25%']}
