@@ -10,7 +10,6 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "prepare": "husky install",
     "heroku-postbuild": "npm run build"
-
   },
   "repository": {
     "type": "git",
@@ -32,6 +31,7 @@
     "@emotion/styled": "^11",
     "@reduxjs/toolkit": "^1.5.1",
     "@sendgrid/mail": "^7.4.4",
+    "axios": "^0.27.2",
     "bcrypt": "^5.0.1",
     "cookie": "^0.4.1",
     "framer-motion": "^4",
