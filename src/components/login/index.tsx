@@ -54,7 +54,6 @@ const Login = () => {
       referrerPolicy: 'no-referrer',
       body: JSON.stringify(data)
     });
-    console.log(response)
     const result = await response.json();
     setIsFetching(false);
 
